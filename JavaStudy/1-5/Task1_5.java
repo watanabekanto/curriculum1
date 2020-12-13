@@ -41,9 +41,9 @@ for (int i = 0; i < fluits.length; i++){
         *     9 || 9 | 18 | 27 | 36 | 45 | 54 | 63 | 72 | 81 |
         */
         for (int h = 1; h <= 9; h++){
-          System.out.print(h + "|");
+          System.out.print(h + " || ");
           for (int j = 1; j <= 9; j++) {
-              System.out.print(" | "+ h * j);
+              System.out.print( h * j +" | "); 
           }
           System.out.println();
       }
