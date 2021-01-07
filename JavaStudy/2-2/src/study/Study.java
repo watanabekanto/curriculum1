@@ -6,9 +6,9 @@ package study;
 class Account {
 
     // フィールド変数
-    private String userName;
-    private int id;
-    private String password;
+     String userName;
+     int id;
+     String password;
 
     // コンストラクタ
     public Account(String userName, int id, String password) {
@@ -24,10 +24,10 @@ class Account {
 	// ① 以下のルールに従いアカウント情報（名前、ID、パスワード）を出力するメソッドを作成してください。
     // アクセス修飾子:「protected」
     // メソッド名:「printAccountInfo」
-    protected static void printAccountInfo(String userName, int id, String password) {
-    	System.out.println("ユーザー名は" + userName);
-    	System.out.println("IDは" + id);
-    	System.out.println("パスワードは" + password);
+    protected void printAccountInfo() {
+    	System.out.println("ユーザー名は、" + this.userName);
+    	System.out.println("IDは、" + this.id);
+    	System.out.println("パスワードは、" + this.password);
     }
 
 
